@@ -20,7 +20,7 @@ FashionStore là một nền tảng thương mại điện tử đơn giản cho
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP 
-- **Cơ sở dữ liệu**: MySQL / PostgreSQL
+- **Cơ sở dữ liệu**: MySQL
 ---
 
 
