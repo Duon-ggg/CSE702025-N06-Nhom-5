@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh toán</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/shopping_cart.css" />
+  </head>
+  <body>
+    <section class="top">
+      <div class="container">
+        <div class="row">
+          <div class="top-logo">
+            <a href="./index.html"
+              ><img src="./assets/img/logo.jpeg" alt=""
+            /></a>
+          </div>
+          <div class="top-menu-items">
+            <ul>
+              <li>
+                Nu
+                <ul class="top-menu-item">
+                  <li><a href="">Hang nu moi ve</a></li>
+                  <li><a href="">Huong duong don nang</a></li>
+                  <li><a href="">Ao nu</a></li>
+                  <li><a href="">Vay nu</a></li>
+                </ul>
+              </li>
+              <li>
+                Nam
+                <ul class="top-menu-item">
+                  <li><a href="./category.html">Hang nam moi ve</a></li>
+                  <li><a href="">Huong duong don nang</a></li>
+                  <li><a href="">Ao nam</a></li>
+                  <li><a href="">Quan nam</a></li>
+                </ul>
+              </li>
+              <li>Tre em</li>
+              <li>Flast sale</li>
+              <li>Hot items</li>
+              <li>Bo suu tap</li>
+              <li>Tin tuc</li>
+              <li>Thong tin</li>
+            </ul>
+          </div>
+          <div class="top-menu-icons">
+            <ul>
+              <li>
+                <input placeholder="Tim kiem" type="text" />
+                <i class="fa fa-search"></i>
+              </li>
+              <li>
+                <i class="fa fa-user-secret" href=""></i>
+              </li>
+              <li>
+                <a href="./shopping_cart.html"
+                  ><i class="fa fa-shopping-cart" href=""></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------- cart---------------- -->
+    <section class="cart">
+      <div class="container">
+        <div class="cart-top-wrap">
+          <div class="cart-top">
+            <div class="cart-top-cart cart-top-item">
+              <i class="fa fa-shopping-cart"></i>
+            </div>
+            <div class="cart-top-adress cart-top-item">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="cart-top-payment cart-top-item">
+              <i class="fa fa-credit-card"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="cart-content row">
+          <div class="cart-content-left">
+            <table>
+              <tr>
+                <th>San pham</th>
+                <th>Ten san pham</th>
+                <th>Mau</th>
+                <th>size</th>
+                <th>So luong</th>
+                <th>Thanh tien</th>
+                <th>Xoa</th>
+              </tr>
+
+              <tr>
+                <td>
+                  <img src="./assets/img/ao_thun_basic_tron1.webp" alt="" />
+                </td>
+                <td><p>Áo thun cổ tròn</p></td>
+                <td><img src="./assets/img/google-play.png" alt="" /></td>
+                <td><p>L</p></td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>
+                  <p>500.000 <sup>d</sup></p>
+                </td>
+                <td><span>X</span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="cart-content-right">
+            <table>
+              <tr>
+                <th colspan="2">Tong tien gio hang</th>
+              </tr>
+              <tr>
+                <td>Tong san pham</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Tong tien hang</td>
+                <td>500.000 <sup>đ</sup></td>
+              </tr>
+              <tr>
+                <td>Tam tinh</td>
+                <td>
+                  <p style="color: black; font-weight: bold">
+                    500.000<sub>đ</sub>
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <div class="cart-content-right-text">
+              <p>
+                ban se duoc mien phi ship khi don hang cua ban co tong gia tri
+                tren 2.000.000 d
+              </p>
+              <p style="color: red" ;>
+                mua them <span style="font-size: 18px">1.500.000 d</span> de
+                duoc mien phi ship
+              </p>
+            </div>
+            <div class="cart-content-right-button">
+              <a href="./index.html"><button>Tep tuc mua sam</button></a>
+              <a href="/delivery.html"><button>Thanh toan</button></a>
+            </div>
+            <div class="cart-content-right-dangnhap">
+              <p>Tai khoan FS</p>
+              <br />
+              <p>
+                Hay <a href="">Dang nhap </a>tai khoan cua ban de tich diem
+                thanh vien
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------- footer ---------------------->
+    <section class="footer">
+      <div class="footer-container">
+        <p>Tai ung dung</p>
+        <div class="app-google">
+          <a href=""><img src="../assets/img/appstore.png" alt="" /></a>
+          <a href=""><img src="../assets/img/google-play.png" alt="" /></a>
+        </div>
+        <p>Nhan ban tin cua ...</p>
+        <div class="input-email">
+          <input type="text" placeholder="Nhập email cua ban" />
+          <i class="fa fa-arrow-left"></i>
+        </div>
+        <div class="footer-items">
+          <li>
+            <a href=""><img src="../assets/img/dathongbao.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="">Lien he</a>
+          </li>
+          <li>
+            <a href="">Tuyen dung</a>
+          </li>
+          <li>
+            <a href="">Gioi thieu</a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-facebook"></i></a
+            ><a href=""><i class="fa fa-youtube"></i></a>
+          </li>
+        </div>
+        <div class="footer-text">
+          cong ty co phan ABC <br />
+          Dia chi dang ky: Yen Nghia, Ha Dong, Ha Noi <br />
+          Dat hang online: <b>023456789</b>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2023 Ban quyen thuoc ve cong ty co phan ABC <br />
+            Chiu trach nhiem noi dung: Nguyen Van A <br />
+            Giay phep MXH so: 123456789
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- aaaaa -->
+    <script src="./js/scrip.js"></script>
+  </body>
+</html>

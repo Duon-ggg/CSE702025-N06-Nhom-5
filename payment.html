@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/payment.css" />
+  </head>
+  <body>
+    <section class="top">
+      <div class="container">
+        <div class="row">
+          <div class="top-logo">
+            <a href="./index.html"
+              ><img src="./assets/img/logo.jpeg" alt=""
+            /></a>
+          </div>
+          <div class="top-menu-items">
+            <ul>
+              <li>
+                Nu
+                <ul class="top-menu-item">
+                  <li><a href="">Hang nu moi ve</a></li>
+                  <li><a href="">Huong duong don nang</a></li>
+                  <li><a href="">Ao nu</a></li>
+                  <li><a href="">Vay nu</a></li>
+                </ul>
+              </li>
+              <li>
+                Nam
+                <ul class="top-menu-item">
+                  <li><a href="./category.html">Hang nam moi ve</a></li>
+                  <li><a href="">Huong duong don nang</a></li>
+                  <li><a href="">Ao nam</a></li>
+                  <li><a href="">Quan nam</a></li>
+                </ul>
+              </li>
+              <li>Tre em</li>
+              <li>Flast sale</li>
+              <li>Hot items</li>
+              <li>Bo suu tap</li>
+              <li>Tin tuc</li>
+              <li>Thong tin</li>
+            </ul>
+          </div>
+          <div class="top-menu-icons">
+            <ul>
+              <li>
+                <input placeholder="Tim kiem" type="text" />
+                <i class="fa fa-search"></i>
+              </li>
+              <li>
+                <i class="fa fa-user-secret"></i>
+              </li>
+              <li>
+                <a href="./shopping_cart.html"
+                  ><i class="fa fa-shopping-cart" href=""></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------- Payment --------------------->
+    <section class="payment">
+      <div class="container">
+        <div class="payment-top-wrap">
+          <div class="payment-top">
+            <div class="payment-top-delivery payment-top-item">
+              <i class="fa fa-shopping-cart"></i>
+            </div>
+            <div class="payment-top-adress payment-top-item">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="payment-top-payment payment-top-item">
+              <i class="fa fa-credit-card"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="payment-container row">
+          <div class="payment-content-left">
+            <div class="payment-content-left-method-delivery">
+              <p style="font-weight: bold">Phuong thuc giao hang</p>
+              <div class="payment-content-left-method-delivery-item">
+                <input checked type="radio" />
+                <label for="">Giao hang chuyen phat nhanh</label>
+              </div>
+            </div>
+            <div class="payment-content-left-method-payment">
+              <p style="font-weight: bold">Phuong thuc thanh toan</p>
+              <p>
+                Moi giao dich deu duoc bao mat va ma hoa. Thong tin the tin dung
+                se khong bao gio duoc luu lai.
+              </p>
+              <div class="payment-content-left-method-payment-item">
+                <input name="method-payment" type="radio" />
+                <label for="">Thanh toan bang the tin dung (Onepay)</label>
+              </div>
+              <div class="payment-content-left-method-payment-item-img">
+                <img src="./assets/img/visa.jpeg" alt="" />
+              </div>
+              <div class="payment-content-left-method-payment-item">
+                <input checked name="method-payment" type="radio" />
+                <label for="">Thanh toan bang the ngan hang (ATM)</label>
+              </div>
+              <div class="payment-content-left-method-payment-item-img">
+                <img src="./assets/img/nganhang.jpg" alt="" />
+              </div>
+              <div class="payment-content-left-method-payment-item">
+                <input name="method-payment" type="radio" />
+                <label for="">Thanh toan bang Momo</label>
+              </div>
+              <div class="payment-content-left-method-payment-item-img">
+                <img src="./assets/img/momo.jpg" alt="" />
+              </div>
+              <div class="payment-content-left-method-payment-item">
+                <input name="method-payment" type="radio" />
+                <label for="">Thu tien tan noi</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="payment-content-right">
+            <div class="payment-content-right-button">
+              <input type="text" placeholder="Ma giam gia/qua tang" />
+              <button><i class="fa fa-check"></i></button>
+            </div>
+            <div class="payment-content-right-button">
+              <input type="text" placeholder="Ma cong tac vien" />
+              <button><i class="fa fa-check"></i></button>
+            </div>
+            <div class="payment-content-right-mnv">
+              <select name="" id="">
+                <option value="">Chon ma nhan vien than thiet</option>
+                <option value="">HK123</option>
+                <option value="">DG345</option>
+                <option value="">DP745</option>
+                <option value="">HM590</option>
+                <option value="">GT315</option>
+                <option value="">DH985</option>
+                <option value="">DD345</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="payment-content-right-payment">
+          <button>Tiep tuc thanh toan</button>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------- footer ---------------------->
+    <section class="footer">
+      <div class="footer-container">
+        <p>Tai ung dung</p>
+        <div class="app-google">
+          <a href=""><img src="../assets/img/appstore.png" alt="" /></a>
+          <a href=""><img src="../assets/img/google-play.png" alt="" /></a>
+        </div>
+        <p>Nhan ban tin cua ...</p>
+        <div class="input-email">
+          <input type="text" placeholder="Nhập email cua ban" />
+          <i class="fa fa-arrow-left"></i>
+        </div>
+        <ul class="footer-items">
+          <li>
+            <a href=""><img src="../assets/img/dathongbao.png" alt="" /></a>
+          </li>
+          <li><a href="">Lien he</a></li>
+          <li><a href="">Tuyen dung</a></li>
+          <li><a href="">Gioi thieu</a></li>
+          <li>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-youtube"></i></a>
+          </li>
+        </ul>
+        <div class="footer-text">
+          cong ty co phan ABC <br />
+          Dia chi dang ky: Yen Nghia, Ha Dong, Ha Noi <br />
+          Dat hang online: <b>023456789</b>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2023 Ban quyen thuoc ve cong ty co phan ABC <br />
+            Chiu trach nhiem noi dung: Nguyen Van A <br />
+            Giay phep MXH so: 123456789
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="./js/scrip.js"></script>
+  </body>
+</html>
